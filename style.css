@@ -92,9 +92,17 @@ header ul li a:hover {
     background: #017143;
     color: #fff;
     border-radius: 40px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
+    transition: 0.3s ease;
+    border: 1px solid #017143;
+}
+
+.content .textBox a:hover {
+    background: #fff;
+    color: #017143;
+    border: 1px solid #017143;
 }
 
 .content .imgBox {
